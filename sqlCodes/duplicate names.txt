@@ -1,0 +1,1 @@
+$sql = "SELECT count(*) as countSend FROM $formName GROUP BY kduEmail HAVING COUNT(*) > 1";

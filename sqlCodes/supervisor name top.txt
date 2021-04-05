@@ -1,0 +1,10 @@
+$sql = "SELECT name FROM supervisors WHERE kduEmail='" . $_SESSION['uname'] . "' and name != ''";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    if ($row = $result->fetch_assoc()) {
+        $name = $row['name'];
+    }
+} else {
+    $name = $_SESSION['uname'];
+}

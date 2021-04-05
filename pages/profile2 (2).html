@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://uselooper.com/assets/stylesheets/theme.min.css" data-skin="default">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- .app-main -->
+        <main class="app-main">
+            <!-- .wrapper -->
+            <div class="wrapper">
+                <!-- .page -->
+                <div class="page">
+
+                    <!-- .page-cover -->
+                    <header class="page-cover">
+                        <div class="text-center">
+                            <a href="user-profile.html" class="user-avatar user-avatar-xl"><img src="https://uselooper.com/assets/images/avatars/profile.jpg" alt=""></a>
+                            <h2 class="h4 mt-2 mb-0"> Beni Arisandi </h2>
+                            <div class="my-1">
+                                <i class="fa fa-star text-yellow"></i> <i class="fa fa-star text-yellow"></i> <i class="fa fa-star text-yellow"></i> <i class="fa fa-star text-yellow"></i> <i class="far fa-star text-yellow"></i>
+                            </div>
+                            <p class="text-muted" style="padding-top: 8px;"> Undergraduate @KDU </p>
+                            <p> This is the profile heading anyone viewing your account can see this </p>
+                        </div>
+                        <!-- .cover-controls -->
+                        <div class="cover-controls cover-controls-bottom">
+                            <a href="#" class="btn btn-light" data-toggle="modal" data-target="#followersModal"></a> <a href="#" class="btn btn-light" data-toggle="modal" data-target="#followingModal"></a>
+                        </div>
+                        <!-- /.cover-controls -->
+                    </header>
+                    <!-- /.page-cover -->
+
+                    <!-- .page-navs -->
+                    <nav class="page-navs">
+                        <!-- .nav-scroller -->
+                        <div class="nav-scroller">
+                            <!-- .nav -->
+                            <div class="nav nav-center nav-tabs">
+                                <a class="nav-link" href="user-profile.html">Overview</a>
+                                <a class="nav-link" href="user-activities.html">Activities <span class="badge">16</span></a>
+                               
+                                <a class="nav-link" href="user-projects.html">Projects</a>
+                                <a class="nav-link" href="user-tasks.html">Tasks</a>
+                                <a class="nav-link active" href="user-profile-settings.html">Settings</a>
+                            </div>
+                            <!-- /.nav -->
+                        </div>
+                        <!-- /.nav-scroller -->
+                    </nav>
+                    <!-- /.page-navs -->
+
+                    <!-- .page-inner -->
+                    <div class="page-inner">
+                        <!-- .page-section -->
+                        <div class="page-section">
+                            <!-- grid row -->
+                            <div class="row">
+                                <!-- grid column -->
+                                <div class="col-lg-4">
+                                    <!-- .card -->
+                                    <div class="card card-fluid">
+                                        <h6 class="card-header"> Your Details </h6>
+                                        <!-- .nav -->
+                                        <nav class="nav nav-tabs flex-column border-0">
+                                            <a href="user-profile-settings.html" class="nav-link active">Profile</a>
+                                            <a href="user-account-settings.html" class="nav-link">Account</a>
+                                            
+                                            <a href="user-notification-settings.html" class="nav-link">Notifications</a>
+                                        </nav>
+                                        <!-- /.nav -->
+                                    </div>
+                                    <!-- /.card -->
+                                </div>
+                                <!-- /grid column -->
+                                <!-- grid column -->
+                                <div class="col-lg-8">
+
+                                    <!-- .card -->
+                                    <div class="card card-fluid">
+                                        <h6 class="card-header"> Public Profile </h6>
+                                        <!-- .card-body -->
+                                        <div class="card-body">
+                                            <!-- .media -->
+                                            <div class="media mb-3">
+                                                <!-- avatar -->
+                                                <div class="user-avatar user-avatar-xl fileinput-button">
+                                                    <div class="fileinput-button-label"> Change photo </div><img src="https://uselooper.com/assets/images/avatars/profile.jpg" alt=""> <input id="fileupload-avatar" type="file" name="avatar">
+                                                </div>
+                                                <!-- /avatar -->
+                                                <!-- .media-body -->
+                                                <div class="media-body pl-3">
+                                                    <h3 class="card-title"> Public avatar </h3>
+                                                    <h6 class="card-subtitle text-muted"> Click the current avatar to change your photo. </h6>
+                                                    <p class="card-text">
+                                                        <small>JPG, GIF or PNG 400x400, &lt; 2 MB.</small>
+                                                    </p>
+                                                    <!-- The avatar upload progress bar -->
+                                                    <div id="progress-avatar" class="progress progress-xs fade">
+                                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                    <!-- /avatar upload progress bar -->
+                                                </div>
+                                                <!-- /.media-body -->
+                                            </div>
+                                            <!-- /.media -->
+                                            <!-- form -->
+                                            <form method="post">
+                                                <!-- form row -->
+                                                <div class="form-row">
+                                                    <!-- form column -->
+                                                    <label for="input01" class="col-md-3">Cover image</label>
+                                                    <!-- /form column -->
+                                                    <!-- form column -->
+                                                    <div class="col-md-9 mb-3">
+                                                        <div class="custom-file">
+                                                            <input type="file" class="custom-file-input" id="input01" multiple> <label class="custom-file-label" for="input01">Choose cover</label>
+                                                        </div><small class="text-muted">Upload a new cover image, JPG 1200x300</small>
+                                                    </div>
+                                                    <!-- /form column -->
+                                                </div>
+                                                <!-- /form row -->
+                                                <!-- form row -->
+                                                <div class="form-row">
+                                                    <!-- form column -->
+                                                    <label for="input02" class="col-md-3">Degree Program</label>
+                                                    <!-- /form column -->
+                                                    <!-- form column -->
+                                                    <div class="col-md-9 mb-3">
+                                                        <input type="text" class="form-control" id="input02" value="CreativeDivision">
+                                                    </div>
+                                                    <!-- /form column -->
+                                                </div>
+                                                <!-- /form row -->
+                                                <!-- form row -->
+                                                <div class="form-row">
+                                                    <!-- form column -->
+                                                    <label for="input03" class="col-md-3">Profile Heading</label>
+                                                    <!-- /form column -->
+                                                    <!-- form column -->
+                                                    <div class="col-md-9 mb-3">
+                                                        <textarea class="form-control" id="input03">Huge fan of HTML, CSS and Javascript. Web design and open source lover.</textarea> <small class="text-muted">Appears on your profile page, 300 chars max.</small>
+                                                    </div>
+                                                    <!-- /form column -->
+                                                </div>
+                                                <!-- /form row -->
+                                                <!-- form row -->
+                                                <div class="form-row">
+                                                    <!-- form column -->
+                                                    <label for="input04" class="col-md-3">show availability?</label>
+                                                    <!-- /form column -->
+                                                    <!-- form column -->
+                                                    <div class="col-md-9 mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input type="checkbox" class="custom-control-input" id="input04" checked> <label class="custom-control-label" for="input04">Yes,please show</label>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /form column -->
+                                                </div>
+                                                <!-- /form row -->
+                                                <hr>
+                                                <!-- .form-actions -->
+                                                <div class="form-actions">
+                                                    <button type="submit" class="btn btn-primary ml-auto">Update Profile</button>
+                                                </div>
+                                                <!-- /.form-actions -->
+                                            </form>
+                                            <!-- /form -->
+                                        </div>
+                                        <!-- /.card-body -->
+                                    </div>
+                                    <!-- /.card -->
+
+                                    <!-- .card -->
+                                    <div class="card card-fluid">
+                                        <h6 class="card-header"> Account </h6>
+                                        <!-- .card-body -->
+                                        <div class="card-body">
+                                            <!-- form -->
+                                            <form method="post">
+                                                <!-- form row -->
+                                                <div class="form-row">
+                                                    <!-- form column -->
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="input01">First Name</label> <input type="text" class="form-control" id="input01" value="Beni" required="">
+                                                    </div>
+                                                    <!-- /form column -->
+                                                    <!-- form column -->
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="input02">Last Name</label> <input type="text" class="form-control" id="input02" value="Arisandi" required="">
+                                                    </div>
+                                                    <!-- /form column -->
+                                                </div>
+                                                <!-- /form row -->
+                                                <!-- .form-group -->
+                                                <div class="form-group">
+                                                    <label for="input03">Email</label> <input type="email" class="form-control" id="input03" value="bent10@looper.com" required="">
+                                                </div>
+                                                <!-- /.form-group -->
+                                                <!-- .form-group -->
+                                                <div class="form-group">
+                                                    <label for="input04">New Password</label> <input type="password" class="form-control" id="input04" value="secret" required="">
+                                                </div>
+                                                <!-- /.form-group -->
+                                                <!-- .form-group -->
+                                                <div class="form-group">
+                                                    <label for="input05">Username</label> <input type="text" class="form-control" id="input05" value="bent10" required=""> <small class="text-muted">Dolores reiciendis, eos accusamus nobis at omnis consequuntur culpa tempore saepe animi.</small>
+                                                </div>
+                                                <!-- /.form-group -->
+                                                <hr>
+                                                <!-- .form-actions -->
+                                                <div class="form-actions">
+                                                    <!-- enable submit btn when user type their current password -->
+                                                    <input type="password" class="form-control mr-3" id="input06" placeholder="Enter Current Password" required=""> <button type="submit" class="btn btn-primary text-nowrap ml-auto" disabled>Update Account</button>
+                                                </div>
+                                                <!-- /.form-actions -->
+                                            </form>
+                                            <!-- /form -->
+                                        </div>
+                                        <!-- /.card-body -->
+                                    </div>
+                                    <!-- /.card -->
+
+                                    <!-- .card -->
+                                    <div class="card card-fluid">
+                                        <h6 class="card-header"> Social Networks </h6>
+                                        <!-- form -->
+                                        <form method="post">
+                                            <!-- .list-group -->
+                                            <div class="list-group list-group-flush mt-3 mb-0">
+                                                <!-- .list-group-item -->
+                                                <div class="list-group-item">
+                                                    <!-- .list-group-item-figure -->
+                                                    <div class="list-group-item-figure">
+                                                        <div class="tile tile-md bg-twitter">
+                                                            <i class="fab fa-twitter"></i>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.list-group-item-figure -->
+                                                    <!-- .list-group-item-body -->
+                                                    <div class="list-group-item-body">
+                                                        <input type="text" class="form-control" id="twitter" placeholder="Twitter Username" value="@stilearningTwit">
+                                                    </div>
+                                                    <!-- /.list-group-item-body -->
+                                                </div>
+                                                <!-- /.list-group-item -->
+                                                <!-- .list-group-item -->
+                                                <div class="list-group-item">
+                                                    <!-- .list-group-item-figure -->
+                                                    <div class="list-group-item-figure">
+                                                        <div class="tile tile-md bg-facebook">
+                                                            <i class="fab fa-facebook-f"></i>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.list-group-item-figure -->
+                                                    <!-- .list-group-item-body -->
+                                                    <div class="list-group-item-body">
+                                                        <input type="text" class="form-control" id="facebook" placeholder="Facebook Username">
+                                                    </div>
+                                                    <!-- /.list-group-item-body -->
+                                                </div>
+                                                <!-- /.list-group-item -->
+                                                <!-- .list-group-item -->
+                                                <div class="list-group-item">
+                                                    <!-- .list-group-item-figure -->
+                                                    <div class="list-group-item-figure">
+                                                        <div class="tile tile-md bg-linkedin">
+                                                            <i class="fab fa-linkedin"></i>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.list-group-item-figure -->
+                                                    <!-- .list-group-item-body -->
+                                                    <div class="list-group-item-body">
+                                                        <input type="text" class="form-control" id="linkedin" placeholder="Linkedin Username">
+                                                    </div>
+                                                    <!-- /.list-group-item-body -->
+                                                </div>
+                                                <!-- /.list-group-item -->
+                                                <!-- .list-group-item -->
+                                                <div class="list-group-item">
+                                                    <!-- .list-group-item-figure -->
+                                                    <div class="list-group-item-figure">
+                                                        <div class="tile tile-md bg-dribbble">
+                                                            <i class="fab fa-dribbble"></i>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.list-group-item-figure -->
+                                                    <!-- .list-group-item-body -->
+                                                    <div class="list-group-item-body">
+                                                        <input type="text" class="form-control" id="dribbble" placeholder="Dribbble Username">
+                                                    </div>
+                                                    <!-- /.list-group-item-body -->
+                                                </div>
+                                                <!-- /.list-group-item -->
+                                                <!-- .list-group-item -->
+                                                <div class="list-group-item">
+                                                    <!-- .list-group-item-figure -->
+                                                    <div class="list-group-item-figure">
+                                                        <div class="tile tile-md bg-github">
+                                                            <i class="fab fa-github"></i>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.list-group-item-figure -->
+                                                    <!-- .list-group-item-body -->
+                                                    <div class="list-group-item-body">
+                                                        <input type="text" class="form-control" id="github" placeholder="Github Username">
+                                                    </div>
+                                                    <!-- /.list-group-item-body -->
+                                                </div>
+                                                <!-- /.list-group-item -->
+                                            </div>
+                                            <!-- /.list-group -->
+                                            <!-- .card-body -->
+                                            <div class="card-body">
+                                                <hr>
+                                                <!-- .form-actions -->
+                                                <div class="form-actions">
+                                                    <button type="submit" class="btn btn-primary ml-auto">Update Socials</button>
+                                                </div>
+                                                <!-- /.form-actions -->
+                                            </div>
+                                            <!-- /.card-body -->
+                                        </form>
+                                        <!-- /form -->
+                                    </div>
+                                    <!-- /.card -->
+
+                                </div>
+                                <!-- /grid column -->
+                            </div>
+                            <!-- /grid row -->
+                        </div>
+                        <!-- /.page-section -->
+                    </div>
+                    <!-- /.page-inner -->
+                </div>
+                <!-- /.page -->
+            </div>
+
+            <!-- /.wrapper -->
+        </main>
+        <!-- /.app-main -->
+
+    </div>
+
+    <script src="https://uselooper.com/assets/vendor/blueimp-file-upload/js/vendor/jquery.ui.widget.js"></script>
+    <script src="https://uselooper.com/assets/vendor/blueimp-load-image/js/load-image.all.min.js"></script>
+    <script src="https://uselooper.com/assets/vendor/blueimp-canvas-to-blob/js/canvas-to-blob.min.js"></script>
+    <script src="https://uselooper.com/assets/vendor/blueimp-file-upload/js/jquery.iframe-transport.js"></script>
+    <script src="https://uselooper.com/assets/vendor/blueimp-file-upload/js/jquery.fileupload.js"></script>
+    <script src="https://uselooper.com/assets/vendor/blueimp-file-upload/js/jquery.fileupload-process.js"></script>
+    <script src="https://uselooper.com/assets/vendor/blueimp-file-upload/js/jquery.fileupload-image.js"></script>
+    <script src="https://uselooper.com/assets/vendor/blueimp-file-upload/js/jquery.fileupload-validate.js"></script>
+
+</body>
+
+</html>

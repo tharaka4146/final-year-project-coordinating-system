@@ -1,0 +1,13 @@
+$sql = "SELECT count(distinct(area)) as areaCount FROM norm WHERE send ='1'";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+
+    if ($row = $result->fetch_assoc()) {
+        $areaCount = $row["areaCount"];
+    }
+
+} else {
+    echo "0 results";
+    echo "<br>";
+}

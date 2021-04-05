@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        JavaScript | call multiple functions in onclick event.
+    </title>
+</head>
+
+<body style="text-align:center;" id="body">
+    <h1 style="color:green;">
+        GeeksforGeeks
+    </h1>
+    <p id="GFG_UP" style="font-size: 15px; font-weight: bold;">
+    </p>
+    <button onclick="GFG_Fun_1(); GFG_Fun_2()"> 
+		click here 
+	</button>
+    <p id="GFG_DOWN_1" style="color:green; font-size: 20px; font-weight: bold;">
+        <p id="GFG_DOWN_2" style="color:green; font-size: 20px; font-weight: bold;">
+        </p>
+        <script>
+            var up = document.getElementById('GFG_UP');
+            up.innerHTML = 'Click on the button to call multiple functions';
+            var down_1 = document.getElementById('GFG_DOWN_1');
+            var down_2 = document.getElementById('GFG_DOWN_2');
+
+            function GFG_Fun_1() {
+                down_1.innerHTML = 'From function 1';
+            }
+
+            function GFG_Fun_2() {
+                down_2.innerHTML = 'From function 2';
+            }
+        </script>
+</body>
+
+</html>

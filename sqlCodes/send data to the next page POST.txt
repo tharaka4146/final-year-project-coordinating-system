@@ -1,0 +1,16 @@
+<body onload = 'nextPage()'>
+
+<form id = 'myform' action = 'http://localhost/fypcs/pages/norm.php' method = 'POST'>
+	<input name = 'indexNo2' type = 'text' value = "<?php echo $indexNo; ?>" hidden>
+	<input type = 'submit' hidden>
+</form>
+
+<script>
+
+function nextPage() {
+    document.getElementById( 'myform' ).submit();
+}
+
+</script>
+
+</body>

@@ -1,0 +1,7 @@
+$sql = "UPDATE deadlines SET deadLine = '$deadLine' where form = 'norm'";
+
+if ($conn->query($sql) === true) {
+    //echo 'Record updated successfully';
+} else {
+    echo 'Error updating record: '.$conn->error;
+}

@@ -1,0 +1,32 @@
+
+               <table class="table" bordered="1">  
+                    <tr>  
+                         <th style="background-color:lightblue; color:white">indexNo</th>
+                         <th style="background-color:lightblue; color:white">Name</th>
+                         <th style="background-color:lightblue; color:white">projectTitle</th>
+                         <th style="background-color:lightblue; color:white">area</th>
+                         <th style="background-color:lightblue; color:white">supervisor1</th>
+                         <th style="background-color:lightblue; color:white">supervisor2</th>
+                         <th style="background-color:lightblue; color:white">examiner1</th>
+                         <th style="background-color:lightblue; color:white">examiner2</th>
+                         <th style="background-color:lightblue; color:white">startDateTime</th>
+                         <th style="background-color:lightblue; color:white">endtDateTime</th>
+                         <th style="background-color:lightblue; color:white">location</th>
+                         <th style="background-color:lightblue; color:white">coordinator</th>
+                    </tr>
+  
+               <tr>  
+               <td>D/BCS/19/0018</td>  
+               <td>Tharaka </td>  
+               <td></td>  
+               <td></td>  
+               <td>Commodore JU Gunaseela</td>  
+               <td>Mr. L Wicramasinghe</td>  
+               <td></td>  
+               <td></td>  
+               <td style = "width:200%;">2020-07-01 00:00:00</td>  
+               <td>2020-07-02 00:00:00</td>  
+               <td>LT-B</td>  
+               <td></td>  
+             </tr>  
+   </table>

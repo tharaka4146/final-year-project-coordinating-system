@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="http://foxythemes.net/preview/products/amaretti/assets/lib/jquery.fullcalendar/fullcalendar.min.css" />
+    <link type="text/css" href="http://foxythemes.net/preview/products/amaretti/assets/css/app.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="am-wrapper">
+
+        <div class="am-content">
+
+            <div class="main-content">
+
+                <div class="row full-calendar">
+
+                    <div class="col-lg-11">
+
+                        <div class="card">
+
+                            <div class="card-body">
+                                <div id="calendar"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="http://foxythemes.net/preview/products/amaretti/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
+    <script src="http://foxythemes.net/preview/products/amaretti/assets/lib/moment.js/min/moment.min.js" type="text/javascript"></script>
+    <script src="http://foxythemes.net/preview/products/amaretti/assets/lib/jquery.fullcalendar/fullcalendar.min.js" type="text/javascript"></script>
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //- initialize the javascript
+            App.init();
+            App.pageCalendar();
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            App.livePreview();
+        });
+    </script>
+    <script type="text/javascript">
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-68396117-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+<php echo '</html>' ?>

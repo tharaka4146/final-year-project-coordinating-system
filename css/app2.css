@@ -1,0 +1,79 @@
+form.dropzone {
+    position: relative;
+    border: 2px dashed #c3c3c3;
+    padding: 70px 60px 80px;
+    background: 0 0
+}
+
+form.dropzone .icon {
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 15px;
+    padding: 20px;
+    text-align: center
+}
+
+form.dropzone .icon span {
+    font-size: 4.615rem;
+    color: #696767
+}
+
+form.dropzone h2 {
+    margin-bottom: 30px;
+    font-size: 3.077rem;
+    font-weight: 300
+}
+
+form.dropzone .note {
+    font-size: 1.231rem
+}
+
+form.dropzone .dz-preview.dz-file-preview .dz-image,
+form.dropzone .dz-preview.dz-image-preview .dz-image {
+    border: 3px solid #4285f4;
+    border-radius: 3px;
+    background: #ededed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+form.dropzone .dz-preview.dz-file-preview.dz-error .dz-image,
+form.dropzone .dz-preview.dz-image-preview.dz-error .dz-image {
+    border-color: #ea4335
+}
+
+form.dropzone .dz-preview.dz-file-preview.dz-success .dz-image,
+form.dropzone .dz-preview.dz-image-preview.dz-success .dz-image {
+    border-color: #4285f4
+}
+
+form.dropzone .dz-preview .dz-details .dz-filename span,
+form.dropzone .dz-preview .dz-details .dz-size span {
+    background: 0 0
+}
+
+form.dropzone .dz-preview .dz-error-message {
+    word-break: break-word
+}
+
+.dropzone-mobile-trigger {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0,0,0,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}

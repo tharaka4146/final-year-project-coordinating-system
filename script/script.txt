@@ -1,0 +1,111 @@
+coordinator in downloaded excel
+
+----------------------------------------------------------------------
+
+coordinator -ILMINI MISS
+
+login
+	encryption
+	forgot password
+
+	show both mails
+
+dashboard
+	names
+
+creaet student accounts
+	Email
+	auto password
+	mail
+	encrypted view
+
+manage forms
+	2 types of submissions
+	color the current form
+	deadlines
+	7 days before deadline alert
+	late submissions
+
+	only accept/reject norm
+	only view other forms	
+
+	norm
+	project prposal
+		disaproved
+	reseach project
+		excel
+
+assign supervisors
+	admission no
+	full name
+	norm form
+	summery of count
+
+assign examiners
+
+calendar
+	alter
+	day -> full details
+	publish notification -> 
+
+upload presentation details
+	excel
+
+all marking
+	presentation + other marking given to the students
+
+logout and redirecting
+
+------------------------------------------------------------------------
+	
+supervisor - PUNSISI MISS
+
+notification
+	calendar
+
+chat
+
+weekly progress
+	week by week
+	notify
+	approve one
+
+
+submissions
+	proposal rejected
+	
+student profiles
+
+supervisor profiles
+
+-----------------------------------------------------------------------
+
+student - THARAKA
+
+(current PROPOSAL UPLOAD)
+
+dashboard
+	summery - names
+	profile password - validation
+	profile - supervisor can view, can fill or auto filled
+	
+submissions
+	norm view - email validation
+	proposal upload DEMO
+	research application
+
+supervisor approve
+
+notification
+	weeklyprogress
+	calendar -> day
+
+
+timeline
+
+chat
+
+
+	
+
+	

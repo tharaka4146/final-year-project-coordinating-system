@@ -1,0 +1,223 @@
+.one {
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+    padding-bottom: 50px;
+}
+
+body {
+    background-image: url("images/heading33.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-light .navbar .nav-link {
+    color: white;
+    padding: .8rem;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 4.5rem;
+    margin-top: -4rem;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    /*
+    opacity: 0.9;
+    */
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #16534E!important;
+}
+
+.dropdown-element {
+    color: #16534E;
+}
+
+.heading {
+    font-size: 80px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.678);
+    color: #16534E;
+    padding: 250px 10px 200px 10px;
+}
+
+.banner {
+    font-size: 35px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.678);
+    color: #16534E;
+    padding: 20px 10px 20px 10px;
+}
+
+body {
+    /*
+    background-color: rgba(62, 107, 231, 0.349)!important;
+    */
+    background-color: #16534E!important;
+}
+
+.topic {
+    border-right: 25px solid transparent;
+    /*
+    border-bottom: 50px solid rgba(62, 107, 231, 0.349);
+    */
+    /*
+    background-image: url("images/heading33.png");
+    background-size: cover;
+    background-attachment: fixed;
+    */
+    border-bottom: 50px solid #16534E;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 0px -10px 30px -20px;
+    height: 10%;
+    /*
+    border-bottom: 50px solid #555;
+    border-right: 25px solid transparent;
+    width: 125px;
+    */
+}
+
+.row {
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.outer {
+    background-color: white!important;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 5;
+    width: 100%;
+    color: #b1adad;
+    transition: 0.2s all;
+    cursor: text;
+}
+
+input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0rem 0rem;
+    border-bottom: 1px solid #b1adad;
+    box-shadow: none;
+    color: #111;
+}
+
+input:invalid {
+    outline: 0;
+    color: #16534E;
+    border-color: #b1adad;
+}
+
+input:focus,
+input:valid {
+    border-color: #16534E;
+}
+
+input:focus~label,
+input:valid~label {
+    font-size: 14px;
+    top: -24px;
+    color: #16534E;
+}
+
+.outer {
+    box-shadow: 10px 15px 9px 3px rgba(0, 0, 0, 0.75)!important;
+    box-shadow: 0px 6px 31px 0px rgba(0, 0, 0, 0.75)!important;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type=text] {
+    color: #16534E;
+}
+
+.outer {
+    border-color: #16534E;
+    border-style: solid;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 7px 6px 0px rgba(104, 103, 103, 0.75);
+}
+
+.inner {
+    border-color: #16534E;
+    border-style: solid;
+    border-radius: .2rem;
+    padding-top: 10px;
+    margin: 20px 10px 20px 10px;
+    padding: 0px 10px 10px 10px;
+}
+
+.btn {
+    padding: 100px 10px 100px 10px;
+}
+
+.button {
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url("images/heading33.png");
+    background-size: cover;
+    background-attachment: fixed;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 5px 7px 6px 0px rgba(104, 103, 103, 0.75);
+}
+
+.button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button1:hover span {
+    padding-right: 25px;
+}
+
+.button1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.bottom {
+    background-color: rgba(255, 255, 255, 0.63);
+    color: #16534E;
+    padding: 100px 10px 100px 10px;
+}

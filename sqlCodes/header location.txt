@@ -1,0 +1,1 @@
+header("Location:http://localhost/fypcs/pages/progressReview1.php?kduEmail=$kduEmail");

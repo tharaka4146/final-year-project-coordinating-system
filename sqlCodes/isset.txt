@@ -1,0 +1,5 @@
+ if (isset($feedback)) {
+	$approvedDate =  date_format($approvedDate, 'd F Y');
+} else {
+        $approvedDate = "";
+}

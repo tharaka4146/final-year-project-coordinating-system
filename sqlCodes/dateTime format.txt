@@ -1,0 +1,7 @@
+date("Y/m/d") 
+
+date_default_timezone_set('Asia/Colombo');
+$dateTime = date('Y-m-d' . ' ' . 'H:i:s');
+
+$dateTime = $row["dateTime"];
+$dateTime = date('F d, Y' . ' ' . 'h:i a', strtotime($dateTime));

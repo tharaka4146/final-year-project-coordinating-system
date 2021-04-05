@@ -1,0 +1,16 @@
+    $sql = "SELECT distinct(area) as areas FROM norm WHERE send = '1' order by indexNo limit $t1 OFFSET $t";
+    $result = $con->query($sql);
+
+    if ($result->num_rows > 0) {
+
+        if ($row = $result->fetch_assoc()) {
+            $areas = $row["areas"];
+            $areas2 = $areas;
+        }
+
+    } else {
+        echo "<br>";
+
+        echo "0 results";
+        echo "<br>";
+    }

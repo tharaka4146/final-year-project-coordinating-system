@@ -1,0 +1,11 @@
+//name at the top
+$sql = "SELECT firstName FROM student WHERE kduEmail='" . $_SESSION['uname'] . "' and firstName != ''";
+$result = $con->query($sql);
+
+if ($result->num_rows > 0) {
+    if ($row = $result->fetch_assoc()) {
+        $name = $row['firstName'];
+    }
+} else {
+    $name = $_SESSION['uname'];
+}

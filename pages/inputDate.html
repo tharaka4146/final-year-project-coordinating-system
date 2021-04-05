@@ -1,0 +1,22 @@
+<html>
+<button onclick="myFunction()">asdfsad</button>
+<script>
+    var monthNames = ["01", "02", "03", "04", "05", "06",
+        "07", "08", "09", "10", "11", "12"
+    ];
+
+    function myFunction() {
+        var today = new Date();
+        var date = prompt("Please enter date in the format year-month-date", today.getFullYear() + "-" + monthNames[today.getMonth()] + "-" + today.getDate());
+
+        if (date != null) {
+            x = date + " 00:00:00";
+            document.getElementById("demo").innerHTML = x;
+        }
+    }
+    //var title = prompt("Enter Event Title");
+</script>
+
+<p id="demo"></p>
+
+</html>
